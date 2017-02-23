@@ -1,0 +1,223 @@
+/*公共样式*/
+*{
+	margin:0;padding:0;
+}
+span{
+	font-family: '微软雅黑';
+}
+/*表单主体框架设置*/
+.info_2_reg_maindiv{
+	width: 1201px;
+	
+	margin:10px auto 10px;
+	
+}
+/*顶部路径*/
+.info_2_reg_form_position{
+	display: block;
+	width: 110px;
+	height: 12px;
+	font-size: 12px;
+}
+/*表单顶部方块*/
+.info_2_reg_form_title{
+	border-left: 2px solid #397DDE;
+	border-top:1px solid #DFDFDF;
+	border-right:1px solid #DFDFDF;
+	border-bottom: 1px solid #DFDFDF;
+	width: 1186px;
+	height: 14px;
+	background: url(../img/info_2_reg_form_title_bg.jpg) repeat-x;
+	margin-top: 11px;
+	padding-top: 10px;
+	padding-left:12px;
+	padding-bottom: 9px;
+}
+.info_2_reg_form_title_txt{
+	display: block;
+	height: 14px;
+	font-size: 14px;
+	line-height: 14px;
+}
+/*方块下方主体内容框架*/
+.info_2_reg_form_formdiv{
+	position: relative;
+	background-color:#FAFBFD;
+	height: 689px;
+	padding-top:19px;
+	border-left:1px solid #E6E6E6;
+	border-bottom:1px solid #E6E6E6;
+	border-right:1px solid #E6E6E6;
+	background: url(../img/info_2_reg_form_formdiv_bg.png) bottom right no-repeat;
+}
+/*注册进度主体框架*/
+.info_2_reg_form_formdiv_step{
+	background-color:#FAFBFD;
+	margin: 0 auto;
+	width: 1126px;
+	height: 37px;
+	background: url(../img/info_2_reg_form_formdiv_step_bg.png) top no-repeat;
+	
+	background-size: 1126px 37px;
+	clear: both;
+}
+/*进度框架文字设置*/
+.info_2_reg_form_formdiv_step_txt{
+	color:#fff;
+	font-size: 14px;
+	line-height: 34px;
+	text-align: center;
+	float: left;
+}
+/*填写信息*/
+.info_2_reg_form_formdiv_step1{
+	background: url(../img/info_2_reg_form_formdiv_step_1.png) no-repeat;
+	position: absolute;
+	z-index: 999;
+	height: 34px;
+	width: 384px;
+}
+/*注册成功*/
+.info_2_reg_form_formdiv_step2{
+	z-index: 0;
+	height: 34px;
+	width: 384px;
+	margin-left: 341px;
+	/*margin-left: -43px;*/
+	background: url(../img/info_2_reg_form_formdiv_step_2.png) no-repeat;
+
+	
+}
+/*表单项固定框架*/
+.info_2_reg_form_formdiv_public{
+	margin:33px 0 auto;
+	width:1199px;
+	height: 48px;
+	
+}
+/*表单项第一个顶部设置*/
+.formdiv_userName{
+	margin:42px 0 auto;
+}
+/*必填项*设置*/
+.required{
+	display: block;
+	height: 12px;
+	width: 5px;
+	line-height:12px;
+	color: red;
+	text-align: center;
+}
+/*用户名、密码、确认密码、邮箱、手机号、验证码布局开始*/
+.required_userName{
+	margin-top: 24px;
+	margin-left: 54px;
+	margin-right: 13px;
+}
+.required_password{
+	margin-top: 24px;
+	margin-left: 31px;
+	margin-right: 13px;
+}
+.required_password_confirm{
+	margin-top: 24px;
+	margin-left: 44px;
+	margin-right: 13px;
+}
+.email_txt{
+	margin-left: 56px;
+}
+.required_phone{
+	margin-top: 24px;
+	margin-left: 68px;
+	margin-right: 13px;
+}
+.required_yzm{
+	margin-top: 24px;
+	margin-left:79px;
+	margin-right: 13px;
+}
+.required,label,.info_2_reg_form_formdiv_userName_txt,.info_2_reg_form_formdiv_password_txt,.info_2_reg_form_formdiv_password_confirm_txt,.info_2_reg_form_formdiv_eamil_txt,.info_2_reg_form_formdiv_yzm_txt,.info_2_reg_form_formdiv_phone_txt,.info_2_reg_form_formdiv_notice{
+
+	float: left;
+}
+label{
+	line-height: 54px;
+	font-size: 12px;
+}
+/*输入框设置开始*/
+.info_2_reg_form_formdiv_userName_txt{
+	margin:11px 15px 9px 13px;
+}
+.info_2_reg_form_formdiv_password_txt{
+	margin:11px 15px 9px 12px;
+}
+.info_2_reg_form_formdiv_password_confirm_txt{
+	margin:11px 15px 9px 11px;
+}
+.info_2_reg_form_formdiv_eamil_txt{
+	margin:11px 15px 9px 17px;
+}
+.info_2_reg_form_formdiv_phone_txt{
+	margin:11px 15px 9px 12px;
+}
+.info_2_reg_form_formdiv_yzm_txt{
+	margin:11px 15px 9px 12px;
+}
+.info_2_reg_form_formdiv_input{
+	height:26px;
+	width: 203px;
+	border:1px solid #cccccc;
+}
+/*输入框设置结束*/
+/*右侧提示*/
+.info_2_reg_form_formdiv_notice{
+	display: block;
+	margin-top: 20px;
+	margin-left: 15px;
+	font-size: 12px;
+	width: 400px;
+	color: #9a9a9a;
+	height: 12px;
+	line-height: 12px;
+}
+.email_notice{
+	color:#FF0100;
+}
+.yzm_notice{
+	margin-left: 15px;
+	margin-top: 14px;
+}
+/*密码强度*/
+.password_statusdiv{
+	margin-top:9px;
+	margin-left: 144px;
+	height: 9px;
+}
+.password_status{
+	display: block;
+	border-top: 8px solid #DDDDDD;
+	width: 54px;
+	height: 18px;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	float: left;
+	margin-right:4px;
+	color: #999999;
+}
+/*用户名、密码、确认密码、邮箱、手机号、验证码布局结束*/
+/*提交按钮*/
+.submit_button{
+	border:none;
+	width: 117px;
+	height: 43px;
+	line-height: 43px;
+	font-size: 20px;
+	color: #fff;
+	background: url(../img/submit_button.png) no-repeat;
+	
+	position: absolute;
+	bottom: 65px;
+	left: 535px;
+}

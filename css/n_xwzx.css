@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "微软雅黑";
+}
+ul li{
+	list-style: none;
+}
+.but{
+	width: 100%;
+	height: 300px;
+}
+.n_details{
+	width: 100%;
+}
+.n_boult{
+	padding-left: 22px;
+}
+.n_new{
+	width: 925px;
+    line-height: 34px;
+}
+.n_go-back {
+	color: #767676;
+	font-size: 14px;
+	padding-right: 19px;
+}
+.n_go-back a{
+	color: #767676;
+}
+.n_left1{
+	float: left;
+}
+.n_content{
+	padding-top: 8px;
+	padding-left: 31px;
+	margin: 0;
+}
+.n_content li{
+	width: 837px;
+	height: 41px;
+	font-size: 12px;
+	color: #2D2D2D;
+	line-height: 42px;
+	border-bottom: 1px dashed #DEDEDE;
+	background: url(../img/n_triangle.jpg) left no-repeat;
+}
+.n_left{
+	float: left;
+	padding-left: 16px;
+}
+.n_right{
+	float: right;
+}
+.page{
+	width: 358px;
+	margin: 0 auto;
+	font-size: 12px;
+	padding-top: 17px;
+	padding-bottom: 15px;
+}
+.box{
+	width: 100%;
+	height: 300px;
+}
+.

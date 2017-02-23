@@ -1,0 +1,238 @@
+/*公共样式*/
+*{
+	margin:0;padding:0;
+}	
+a{
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+a:focus{
+	outline:none;
+}
+/*头部图片*/
+.info_3_ebs_online_3_banner_img{
+	width: 1204px;
+	height: 159px;
+	margin:0 auto;
+}
+/*主体框架*/
+.info_3_ebs_online_3_maindiv{
+	width: 1204px;
+	margin:10px auto 10px;
+
+}
+/*左侧公布部分*/
+.info_3_ebs_online_3_leftlinkdiv{
+	float: left;
+	margin-top: 8px;
+	border:1px solid #DEDEDE;
+	width: 265px;
+}
+/*右侧框架*/
+.info_3_ebs_online_3_rightdiv{
+	float: left;
+	width: 927px;
+	
+	margin-top: 8px;
+	margin-left: 10px;
+}
+/*右侧框架路径导航条*/
+.info_3_ebs_online_3_rightdiv_pathdiv{
+	border:1px solid #DEDEDE;
+	width: 925px;
+	height: 34px;
+	background: url(../img/pathdiv_bg.jpg) repeat-x;
+	position: relative;
+}
+/*左侧菜单模块*/
+.info_3_ebs_online_3_leftlinkdiv_alinkdiv{
+	display: block;
+	cursor: pointer;
+	border-bottom:1px solid #DEDEDE;
+	width: 265px;
+	height: 42px;
+	line-height: 42px;
+
+	background: url(../img/alinkdiv_bg.jpg) repeat-x;
+}
+/*左侧顶部*/
+.info_3_ebs_online_3_leftlinkdiv_pathdiv{
+	position: relative;
+	border-bottom:1px solid #DEDEDE;
+	width: 265px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 17px;
+	font-family: '微软雅黑';
+	font-weight: bold;
+	background: url(../img/pathdiv_bg.jpg) repeat-x;
+}
+/*右侧详情部分*/
+.info_3_ebs_online_3_rightdiv_detaildiv{
+	width: 925px;
+	position: relative;
+	border:1px solid #DEDEDE;
+	margin-top: 8px;
+
+}
+/*蓝色小方块*/
+.pathicon{
+	position: absolute;
+	top: 9px;
+	left: 13px;
+	width: 4px;
+	height: 16px;
+	background-color: #134697;
+}
+/*左侧菜单模块文字部分布局*/
+.alink_txt{
+	margin-left: 22px;
+}
+/*右朝向箭头*/
+.rightarrow{
+	margin-right: 21px;
+	float:right;
+}
+/*菜单模块下的span公共定义*/
+.info_3_ebs_online_3_leftlinkdiv_alinkdiv span{
+	font-size: 17px;
+	font-family: '微软雅黑';
+	color:#000;
+}
+/*菜单模块部分的聚焦效果*/
+.alinkdiv_focus,.alinkdiv_focus:focus,.info_3_ebs_online_3_leftlinkdiv_alinkdiv:hover{
+	background: url(../img/alinkdiv_focus.jpg) repeat-x;
+}
+/*下级菜单主框架*/
+.alinkdiv_listdiv{
+	width:265px;
+	display: none;
+}
+/*下级菜单样式*/
+.listdiv_link{
+	display: block;
+	width:239px;
+	height: 39px;
+	padding-top: 12px;
+	padding-left:9px;
+	margin:0 auto;
+	border-bottom: 1px solid #DEDEDE;
+}
+/*下级菜单的划过和聚焦效果*/
+.listdiv_link:hover,.listdiv_link:focus{
+	background-color:#DDF3FF;
+}
+/*右侧顶部路径的布局*/
+.rightdiv_path{
+	margin-left: 23px;
+	font-size: 17px;
+	height: 32px;
+	line-height: 32px;
+	clear:both;
+}
+/*右侧顶部路径的文字样式*/
+.path_alink,.rightdiv_path span{
+	float: left;
+	height: 17px;
+	font-size: 17px;
+	padding-left: 7px;
+	padding-right: 7px;
+	font-weight: bold;
+	font-family:"微软雅黑"; 
+}
+
+.backspace{
+	float: right;
+	margin-right: 18px;
+	color:#7f7f7f;
+	width: 60px;
+	text-align: right;
+	font-weight: normal;
+}
+/*右侧视频部分*/
+.video_pic{
+	margin-left: 11px;
+	margin-top: 18px;
+	float: left;
+	width: 383px;
+	height: 352px;
+}
+/*视频右侧详情信息	*/
+.online_class_detaildiv{
+	width: 485px;
+	float: left;
+	margin-left:24px;
+	margin-top: 24px;
+}
+.class_title{
+	color:#6C86B7;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+.class_txt{
+	line-height: 30px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	margin-top: 26px;
+}
+.class_txt span{
+	color: #A0A0A0;
+}
+/*分享部分*/
+.sharediv{
+	width: 158px;
+	height: 24px;
+
+	position: absolute;
+	top: 344px;
+	left: 418px;
+	
+}
+.icon{float: left;
+}
+.share_txt{
+	font-size: 12px;
+	display: block;
+	margin-left:2px;
+	margin-right: 6px;
+	margin-top: 12px;
+}
+a .icon{
+	margin-left: 6px;
+}
+.share_pic{
+	width: 24px;
+	height: 24px;
+
+}
+/*详细信息部分*/
+.online_class_detail{
+	width: 900px;
+	margin:23px auto;
+}
+.online_class_detail_title{
+	width: 900px;
+	height: 37px;
+	
+	border-bottom: 1px solid #5C9AFF;
+
+}
+.online_class_detail_title span{
+	display: block;
+	width:94px;
+	height: 37px;
+	text-align: center;
+	line-height: 37px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	background-color: #5C9AFF;
+	color: #fff;
+}
+.online_class_detail p{
+	line-height: 24px;
+	margin-left: 29px;
+	margin-top: 10px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}

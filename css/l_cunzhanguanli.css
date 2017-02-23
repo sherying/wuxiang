@@ -1,0 +1,101 @@
+/***********薛氏出品**************/
+.l_dianshang{
+	position: relative;
+}
+.l_dianshang_span1{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 6px;
+	font-size: 14px;
+}
+.l_dianshang_span1 a{
+	float: left;
+}
+.l_gengduo{
+	float: right;
+	font-size: 14px;
+	margin-right: 15px;
+	margin-top: 6px;
+	color: #808080;
+}
+.l_rightbt:after{
+	display: block;
+	overflow: hidden;
+	content: '';
+	clear: both;
+	height: 0;
+	zoom: 1;
+}
+.l_leibiao{
+	width: 887px;
+	border-bottom: 1px solid #DFDFDF;
+	margin: 19px auto 0;
+	padding-bottom: 5px;
+}
+.l_leibiao_p1{
+	font-size: 12px;
+	margin-top: 6px;
+}
+.l_leibiao_div{
+	margin-top: 11px;
+	padding-bottom: 
+}
+.l_leibiao_div img{
+	float: left;
+}
+.l_leibiao_div p{
+	float: left;
+	width: 750px;
+	font-family: "宋体";
+	font-size: 14px;
+	margin-left: 16px;
+	margin-top:15px;
+	color: #525252;
+	line-height: 20px;
+}
+.l_leibiao a{
+	font-size: 12px;
+	margin-top: 8px;
+	/*margin-bottom: 9px;*/
+	color: #c00000;
+}
+.l_leibiao_div:after{
+	display: block;
+	overflow: hidden;
+	content: '';
+	clear: both;
+	height: 0;
+	zoom: 1;
+}
+.l_huanye:after{
+	display: block;
+	overflow: hidden;
+	content: '';
+	clear: both;
+	height: 0;
+	zoom: 1;
+}
+ul li{
+	list-style: none;
+}
+.l_huanye{
+	font-size: 12px;
+	margin:31px auto 16px;
+	width: 335px;
+}
+.l_huanye li{
+	float: left;
+}
+.l_yeshu:after{
+	display: block;
+	overflow: hidden;
+	content: '';
+	clear: both;
+	height: 0;
+	zoom: 1;
+}
+.l_yeshu a{
+	float: left;
+	margin-left: 2px;
+
+}

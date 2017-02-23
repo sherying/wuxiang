@@ -1,0 +1,161 @@
+/*公共样式*/
+*{
+	margin:0;padding:0;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+}
+a:focus{
+	outline:none;
+}
+/*头部图片*/
+.info_2_ebs_bp_2_banner_img{
+	width: 1204px;
+	height: 159px;
+	margin:0 auto;
+}
+/*主体框架*/
+.info_2_ebs_bp_2_maindiv{
+	width: 1204px;
+	margin: 0 auto;
+
+}
+/*左侧公布部分*/
+.info_2_ebs_bp_2_leftlinkdiv{
+	float: left;
+	margin-top: 8px;
+	border:1px solid #DEDEDE;
+	width: 265px;
+}
+/*右侧框架*/
+.info_2_ebs_bp_2_rightdiv{
+	float: left;
+	width: 927px;
+	margin-top: 8px;
+	margin-left: 10px;
+}
+/*右侧框架路径导航条*/
+.info_2_ebs_bp_2_rightdiv_pathdiv{
+	border:1px solid #DEDEDE;
+	width: 925px;
+	height: 34px;
+	background: url(../img/pathdiv_bg.jpg) repeat-x;
+	position: relative;
+}
+/*左侧菜单模块*/
+.info_2_ebs_bp_2_leftlinkdiv_alinkdiv{
+	display: block;
+	cursor: pointer;
+	border-bottom:1px solid #DEDEDE;
+	width: 265px;
+	height: 42px;
+	line-height: 42px;
+	background: url(../img/alinkdiv_bg.jpg) repeat-x;
+}
+/*左侧顶部*/
+.info_2_ebs_bp_2_leftlinkdiv_pathdiv{
+	position: relative;
+	border-bottom:1px solid #DEDEDE;
+	width: 265px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 16px;
+	font-family: '微软雅黑';
+	
+	background: url(../img/pathdiv_bg.jpg) repeat-x;
+}
+/*右侧详情部分*/
+.info_2_ebs_bp_2_rightdiv_detaildiv{
+	width: 925px;
+	border:1px solid #DEDEDE;
+	margin-top: 8px;
+}
+/*详情部分TAB标签页*/
+
+/*蓝色小方块*/
+.pathicon{
+	position: absolute;
+	top: 9px;
+	left: 13px;
+	width: 4px;
+	height: 16px;
+	background-color: #134697;
+}
+/*左侧菜单模块文字部分布局*/
+.alink_txt{
+	margin-left: 22px;
+}
+/*右朝向箭头*/
+.rightarrow{
+	margin-right: 21px;
+	float:right;
+}
+/*菜单模块下的span公共定义*/
+.info_2_ebs_bp_2_leftlinkdiv_alinkdiv span{
+	font-size: 16px;
+	font-family: '微软雅黑';
+	color:#000;
+}
+/*菜单模块部分的聚焦效果*/
+.alinkdiv_focus,.alinkdiv_focus:focus,.info_2_ebs_bp_2_leftlinkdiv_alinkdiv:hover{
+	background: url(../img/alinkdiv_focus.jpg) repeat-x;
+}
+/*下级菜单主框架*/
+.alinkdiv_listdiv{
+	width:265px;
+	display: none;
+}
+/*下级菜单样式*/
+.listdiv_link{
+	display: block;
+	width:239px;
+	height: 39px;
+	padding-top: 12px;
+	padding-left:9px;
+	margin:0 auto;
+	border-bottom: 1px solid #DEDEDE;
+}
+/*下级菜单的划过和聚焦效果*/
+.listdiv_link:hover,.listdiv_link:focus{
+	background-color:#DDF3FF;
+}
+/*右侧顶部路径的布局*/
+.rightdiv_path{
+	margin-left: 23px;
+	font-size: 16px;
+	height: 32px;
+	line-height: 32px;
+	clear:both;
+}
+/*右侧顶部路径的文字样式*/
+.path_alink,.rightdiv_path span{
+	float: left;
+	height: 17px;
+	font-size: 16px;
+	padding-left: 7px;
+	padding-right: 7px;
+	font-family:"微软雅黑"; 
+}
+.backspace{
+	float: right;
+	margin-right: 18px;
+	color:#7f7f7f;
+	width: 63px;
+	text-align: right;
+	font-weight: normal;
+}
+/*筛选条件的文字样式和布局*/
+.info_2_ebs_bp_2_rightdiv_searchindexdiv span{
+	display: block;
+	margin-left: 33px;
+	width: 42px;
+	font-size: 14px;
+	float: left;
+}
+.search_alink{
+	font-size: 16px;
+	float: left;
+}
+

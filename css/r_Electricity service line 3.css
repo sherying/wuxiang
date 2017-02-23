@@ -1,0 +1,141 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: "微软雅黑",Arial,Tahoma;
+}
+.r_content{
+    width:1204px;
+}
+.r_header{
+    width:100%;
+}
+.r_pathleft{
+    display: inline-block;
+    width:600px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #2B2B2B;
+}
+.r_pathright{
+    display: inline-block;
+    width: 60px;
+    padding-left: 241px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #8B8B8B;
+}
+.r_pathleft a{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #2B2B2B;
+}
+.r_pathleft p{
+    margin-left: 11px;
+    margin-top: 9px;
+    margin-right: 7px;
+    margin-bottom: -2px;
+}
+.r_pathright a{
+    display: inline-block;
+    color: #8B8B8B;
+}
+.r_blue{
+     display: inline-block;
+     width:4px;
+     height: 16px;
+     background-color: #134697;
+ }
+.r_header{
+    padding-top: 17px;
+    margin-left: 10px;
+}
+.r_header img{
+    float: left;
+ }
+.r_header_infor{
+    float: left;
+    width: 551px;
+    padding-left: 16px;
+    display: inline-block;
+}
+.r_header_infor h2{
+    font-size: 18px;
+    color: #2F5BA2;
+    padding-bottom: 37px;
+}
+.r_intro{
+    padding-bottom: 13px;
+    overflow: hidden;
+    clear: both;
+}
+.r_intro a{
+    display: inline-block;
+    font-size: 12px;
+    color: #9F9F9F;
+}
+.r_intro span{
+    display: inline-block;
+    font-size: 12px;
+    color: #3B3B3B;
+}
+.r_apply{
+    width: 141px;
+    height: 42px;
+    background:url(../img/r_apply.jpg) no-repeat;
+    color: white;
+    text-align: center;
+    line-height: 39px;
+    font-size: 17px;
+}
+.r_content{
+    width: 899px;
+    margin-left: 12px;
+}
+.r_content_title p{
+    width: 899px;
+    background:url(../img/r_pico.jpg);
+}
+.r_content_titleone{
+    padding-top: 16px;
+}
+.r_content_titleone p{
+    width: 899px;
+    border-bottom:2px solid #5C9AFF;
+}
+.r_content_titleone div{
+    font-size: 12px;
+    color: #3c3c3c;
+    padding-top: 16px;
+    padding-bottom: 20px;
+    line-height: 22px;
+}
+
+.r_content_titleone a{
+    width:93px;
+    text-align: center;
+    color: white;
+    height:38px;
+    font-size: 14px;
+    line-height: 38px;
+    background-color: #5C9AFF;
+}
+.r_content_title a{
+    display: inline-block;
+    width:81px;
+    text-align: center;
+    color: white;
+    height:24px;
+    font-size: 14px;
+    line-height: 23px;
+    background:url(../img/r_pic.jpg) no-repeat;
+    z-index: 9999;
+}
+.r_content_title .r_info{
+    padding: 18px 0;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3B3B3B;
+}
